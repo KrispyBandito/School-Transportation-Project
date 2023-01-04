@@ -1,0 +1,92 @@
+.container-b1 {
+    background: linear-gradient(to bottom left,  #022e22, #024122, #025122);
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    min-width: 100px;
+    padding-top: 150px;
+    padding-bottom: 120px; 
+}
+
+.container-b1::before {
+    content: '';
+    background-image: url("https://www.csus.edu/newcsus2019-global-assets/_internal/images/comb-pattern-1.svg");
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 78%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /*left: 150px;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.container-b1 .about {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    width: 60%;
+    padding: 0;
+}
+
+#about-header {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 2.7em;
+    color: #cbc562;
+}
+
+.container-b1 .about li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: white;
+}
+
+.container-b1 .info {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 320px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.container-b1 .info li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: white;
+    color: black;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+#info-title {
+    border: 1px solid #E6B711;
+    background: #E6B711;
+    padding: 3px;
+    border-radius: 2px;
+    position: relative;
+    bottom: 7px;
+}
+
+.container-b1 .info img {
+    max-width: 75px;
+    width: 75px;
+}

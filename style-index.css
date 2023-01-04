@@ -1,0 +1,161 @@
+.container-b1 {
+    background: linear-gradient(to bottom left,  #022e22, #024122, #025122);
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    min-width: 100px;
+    padding-top: 150px;
+    padding-bottom: 170px; 
+}
+
+.container-b1::before {
+    content: '';
+    background-image: url("https://cdn.hipwallpaper.com/i/43/94/OKnqhx.jpg");
+    /*background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GTYSdDW/videoblocks-cinematic-urban-aerial-timelapse-of-downtown-los-angeles-skyline-with-freeway-traffic_s1cltmjfg_thumbnail-1080_01.png");
+    */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40%;
+    position: absolute;
+    height: 715px;
+    top: 130px;
+    /*top: 150px;*/
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: .3;
+}
+
+#infoTitle {
+    font-size: 20px;
+}
+
+.container-b1 .transport {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.container-b1 .transport li {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to top,  #022e22, #024122);
+    color: white;
+    display: inline-block;
+    position: relative;
+    border: 3px solid #cbc562;
+    border-radius: 10%;
+    height: 400px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.container-b1 a {
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*border-top: 2px solid white;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    */
+}
+
+.container-b1 .transport li a:hover {
+    color: #cbc562;
+}
+
+.container-b1 .transport img {
+    border: 3px solid black;
+    background: white;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.container-b1 .transport .resize {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.container-b1 .survey {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    top: 80px;
+}
+
+.container-b1 .survey li {
+    background: linear-gradient(to top,  #022e22, #024122);
+    border: 3px solid #cbc562;
+    border-radius: 10%;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.container-b1 .survey .resize-survey {
+    max-width: 40px;
+    max-height: 40px;
+    width:40px;
+    height: 40px;
+}
+
+.container-b1 .survey img {
+    border: 3px solid black;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1555px) {
+    .container-b1::before {
+        content: '';
+    background-image: url("https://cdn.hipwallpaper.com/i/43/94/OKnqhx.jpg");
+    /*background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GTYSdDW/videoblocks-cinematic-urban-aerial-timelapse-of-downtown-los-angeles-skyline-with-freeway-traffic_s1cltmjfg_thumbnail-1080_01.png");
+    */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 70%;
+    position: absolute;
+    height: 1160px;
+    top: 130px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: .3;
+    }
+}
+
+@media (max-width: 792px) {
+    .container-b1::before {
+        content: '';
+        background-image: url("https://cdn.hipwallpaper.com/i/43/94/OKnqhx.jpg");
+        /*background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GTYSdDW/videoblocks-cinematic-urban-aerial-timelapse-of-downtown-los-angeles-skyline-with-freeway-traffic_s1cltmjfg_thumbnail-1080_01.png");
+        */
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 70%;
+        position: absolute;
+        height: 2055px;
+        top: 130px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        opacity: .3;
+    }
+}
